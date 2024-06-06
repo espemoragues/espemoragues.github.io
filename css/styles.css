@@ -111,11 +111,17 @@ nav li:first-child a:hover{
 footer{
     width: 100%;
     display: flex;
-    justify-content: end;
-    padding: 50px 20px;
-}
-footer h3{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 20px 50px;
+    gap: 50px;
     color: white;
+}
+footer h4{
+    color:black;
+    width: 100%;
+    text-align: end;
     font-size: 0.9em;
     font-weight: 200;
 }
@@ -337,6 +343,8 @@ footer a:hover{
 .videocase-info h2{
     color: #316dbb;
     font-size: 2em;
+    text-align: center;
+    padding: 15px;
 }
 @media (max-width: 905px) {
     .home{
@@ -416,7 +424,7 @@ footer a:hover{
 }
 .table-container {
     display: flex;
-    width: 100vw;
+    width: 100%;
 }
 .table-container1{
     width: 66.66666%;
