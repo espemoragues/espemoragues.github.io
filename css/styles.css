@@ -115,8 +115,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 20px 50px;
-    gap: 50px;
+    padding: 120px 50px;
+    gap: 30px;
     color: white;
 }
 .about-me-description{
@@ -129,9 +129,12 @@ footer{
 footer h3{
     font-style: italic;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 footer h5{
-    font-weight: 300;
+    font-weight: 170;
+    font-size: 1.2rem;
 }
 
 .sidebar{
